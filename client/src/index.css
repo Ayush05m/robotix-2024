@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary-color: #FFD700;
+    /* Golden Yellow */
+    --background-color: #000000;
+    /* Black */
+    --text-color: #FFD700;
+    --input-background: #1a1a1a;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
